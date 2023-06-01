@@ -19,4 +19,9 @@ public:
 	{
 		return a + b + c;
 	}
+
+	int getZegop(int a)
+	{
+		return a * a;
+	}
 };
