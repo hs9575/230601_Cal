@@ -5,3 +5,9 @@ TEST(TestCaseName, TestName) {
 	Cal* cal = new Cal();
 	EXPECT_TRUE(cal != nullptr);
 }
+
+TEST(TestCaseName, div1)
+{
+	Cal* cal = new Cal();
+	EXPECT_EQ(6, cal->getDivide(6, 3));
+}
