@@ -15,3 +15,8 @@ TEST(TestCaseName, TestSumSum) {
 	Cal* cal = new Cal();
 	EXPECT_EQ(11, cal->getSumSum(3, 4, 4));
 }
+
+TEST(TestCaseName, TestZegop) {
+	Cal* cal = new Cal();
+	EXPECT_EQ(4, cal->getZegop(2));
+}
