@@ -9,5 +9,5 @@ TEST(TestCaseName, TestName) {
 TEST(TestCaseName, div1)
 {
 	Cal* cal = new Cal();
-	EXPECT_EQ(6, cal->getDivide(6, 3));
+	EXPECT_EQ(2, cal->getDivide(6, 3));
 }
